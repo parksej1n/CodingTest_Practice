@@ -2,15 +2,12 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {
-        char a;
-        Scanner sc = new Scanner(System.in);
-
-        String str = sc.next();
-
-        for (int i=0; i<str.length(); i++){
-            a = str.charAt(i);
+        Scanner scanner = new Scanner(System.in);
+        String text = scanner.nextLine();
+        
+        for(int i=0; i<text.length(); i++){
+            char a = text.charAt(i);
             System.out.println(a);
         }
-
     }
 }
